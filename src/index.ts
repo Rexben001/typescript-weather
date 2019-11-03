@@ -28,3 +28,7 @@ const displayResult = (arr: Array<string>) => {
       });
   }
 };
+
+// Copied input values from the instruction
+const inputValues = "New York, 10009, Tokyo, São Paulo, Pluto".split(",");
+displayResult(inputValues);
